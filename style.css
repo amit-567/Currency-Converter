@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vmin;
+    background-color: #f4e4ba;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 4vmin;
+}
+
+.Enter-Amount,
+.msg,
+.fromtext,
+.totext {
+    font-size: 3vmin;
+}
+
+.container {
+    background-color: white;
+    padding: 3vmin;
+    border-radius: 1vmin;
+    width: 45vmin;
+}
+
+form {
+    margin: 3vmin 0 2vmin 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: .75vmin;
+}
+
+form input {
+    height: 5vmin;
+    border: solid lightgray .2vmin;
+    font-size: 3vmin;
+    margin-top: 1vmin;
+    padding-left: .5vmin;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vmin;
+}
+
+.select-country img {
+    max-width: 5vmin;
+}
+
+.dropdown i {
+    font-size: 3vmin;
+    margin-top: 3vmin;
+}
+
+.select-country select {
+    font-size: 2.5vmin;
+    width: auto;
+}
+
+.select-country {
+    display: flex;
+    max-width: 18vmin;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vmin;
+    border: solid lightgray .2vmin;
+    padding: .2vmin;
+}
+
+.msg {
+    margin: 3vmin 0 3vmin;
+}
+
+form button {
+    height: 5vmin;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 2.5vmin;
+    cursor: pointer;
+}
